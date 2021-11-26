@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RemoteService</string>
+    <string name="buttonGet">GET</string>
+    <string name="buttonPost">POST</string>
 </resources>

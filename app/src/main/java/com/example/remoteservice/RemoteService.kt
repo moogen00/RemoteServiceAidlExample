@@ -26,10 +26,17 @@ class RemoteService : Service() {
             listeners.remove(callback)
             return true;
         }
+
+        override fun printTest() {
+            Log.d(TAG, "printTest ========================================")
+        }
+
+
     }
 
     override fun onBind(p0: Intent?): IBinder? {
-        handler.sendEmptyMessageDelayed(0, 5000)
+        //handler.sendEmptyMessageDelayed(0, 5000)
+        Log.d(TAG, "onBind ========================================")
         return binder
     }
 

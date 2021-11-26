@@ -6,4 +6,5 @@ import com.example.remoteservice.IRemoteServiceCallback;
 interface IRemoteService {
     boolean addCallback(IRemoteServiceCallback callback);
     boolean removeCallback(IRemoteServiceCallback callbac);
+    void printTest();
 }
